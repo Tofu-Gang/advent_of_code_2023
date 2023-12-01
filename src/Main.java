@@ -1,3 +1,6 @@
+import static day01.Day01.puzzle1;
+import static day01.Day01.puzzle2;
+
 public class Main {
     /**
      * Something is wrong with global snow production, and you've been selected to take a look. The Elves have even
@@ -13,5 +16,7 @@ public class Main {
      */
     public static void main(String[] args) {
         System.out.println("Advent of Code 2023");
+        System.out.printf("DAY 01  *: %d%n", puzzle1());
+        System.out.printf("DAY 01 **: %d%n", puzzle2());
     }
 }
