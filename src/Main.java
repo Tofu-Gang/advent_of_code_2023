@@ -1,5 +1,5 @@
-import static day01.Day01.puzzle1;
-import static day01.Day01.puzzle2;
+import day01.Day01;
+import day02.Day02;
 
 public class Main {
     /**
@@ -16,7 +16,9 @@ public class Main {
      */
     public static void main(String[] args) {
         System.out.println("Advent of Code 2023");
-        System.out.printf("DAY 01  *: %d%n", puzzle1());
-        System.out.printf("DAY 01 **: %d%n", puzzle2());
+        System.out.printf("DAY 01  *: %d%n", Day01.puzzle1());
+        System.out.printf("DAY 01 **: %d%n", Day01.puzzle2());
+        System.out.printf("DAY 02  *: %d%n", Day02.puzzle1());
+        System.out.printf("DAY 02 **: %d%n", Day02.puzzle2());
     }
 }
