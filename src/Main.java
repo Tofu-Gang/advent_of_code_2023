@@ -1,5 +1,6 @@
 import day01.Day01;
 import day02.Day02;
+import day03.Day03;
 
 public class Main {
     /**
@@ -20,5 +21,7 @@ public class Main {
         System.out.printf("DAY 01 **: %d%n", Day01.puzzle2());
         System.out.printf("DAY 02  *: %d%n", Day02.puzzle1());
         System.out.printf("DAY 02 **: %d%n", Day02.puzzle2());
+        System.out.printf("DAY 03  *: %d%n", Day03.puzzle1());
+        System.out.printf("DAY 03 **: %d%n", Day03.puzzle2());
     }
 }
